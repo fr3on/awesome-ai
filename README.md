@@ -106,12 +106,7 @@ Contributions welcome — see [Contributing](#contributing).
 
 ## Contributing
 
-Contributions welcome. Please make sure your addition:
-
-- Is actively maintained
-- Has clear documentation
-- Isn't a duplicate of an existing entry
-- Includes a one-line description explaining what makes it useful, not just what it is
+Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) for the checklist and submission format.
 
 ## License
 
