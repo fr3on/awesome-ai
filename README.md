@@ -81,12 +81,22 @@ Contributions welcome — see [Contributing](#contributing).
 - [Hugging Face Datasets](https://huggingface.co/datasets) - The largest open hub for ML datasets across every modality.
 - [Common Crawl](https://commoncrawl.org/) - Petabyte-scale open web crawl data, the base corpus behind most large LLMs.
 - [The Pile](https://pile.eleuther.ai/) - Large, diverse open-source text corpus for language model training.
+- [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) - 15-trillion-token filtered and deduplicated web dataset from Hugging Face, built for LLM pretraining.
+- [RedPajama](https://github.com/togethercomputer/RedPajama-Data) - Open reproduction of the LLaMA training dataset, fully public and reproducible.
+- [Dolma](https://github.com/allenai/dolma) - Allen AI's open 3-trillion-token corpus with full data provenance and toolkit for building your own.
+- [LAION-5B](https://laion.ai/blog/laion-5b/) - 5.8 billion image-text pairs, the dataset behind Stable Diffusion and most open multimodal models.
+- [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) - Instruction-tuning dataset of GPT-3.5/GPT-4-augmented completions over FLAN-style prompts.
 
 ## Safety & Alignment
 
 - [Anthropic's Responsible Scaling Policy](https://www.anthropic.com/rsp) - Public framework for managing frontier-model risk as capabilities scale.
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - US government framework for identifying and managing AI risk.
 - [Alignment Forum](https://www.alignmentforum.org/) - Research community and discussion hub focused on AI alignment.
+- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - The standard reference for LLM-specific vulnerabilities: prompt injection, insecure output handling, training data poisoning, and more.
+- [METR](https://metr.org/) - Independent nonprofit that evaluates frontier models for dangerous autonomous capabilities before release.
+- [UK AI Security Institute](https://www.aisi.gov.uk/) - Government body running pre-deployment safety testing on frontier models.
+- [Constitutional AI (Anthropic)](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) - Foundational paper on training models to be helpful and harmless using AI-generated feedback instead of only human labels.
+- [Llama Guard](https://github.com/meta-llama/PurpleLlama) - Meta's open-weight safeguard model for classifying and filtering unsafe prompts and completions.
 
 ## Learning Resources
 
