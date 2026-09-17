@@ -52,7 +52,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [Midjourney](https://www.midjourney.com/) - Commercial text-to-image generation platform known for high aesthetic quality and artistic rendering.
 - [Runway](https://runwayml.com/) - Commercial generative video platform offering text-to-video, image-to-video, and cinematic camera controls.
 - [Sora](https://openai.com/sora/) - OpenAI's text-to-video model capable of generating minute-long scenes with camera motion and physical consistency.
-- [Stable Diffusion](https://github.com/CompVis/stable-diffusion) - Open-weight text-to-image diffusion model family that established open ecosystem generative imaging.
+- [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - Open-weight text-to-image diffusion model family that established open ecosystem generative imaging.
 - [Suno](https://suno.com/) - AI music generation platform that produces complete songs with vocal arrangements and instrumentation from text prompts.
 - [TRELLIS](https://github.com/microsoft/TRELLIS) - Open-source model producing structured 3D representations (Gaussian splats, Radiance Fields, meshes) from a single 2D image.
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) - Alibaba's open-weight video foundation model family supporting high-resolution text-to-video and image-to-video generation.
