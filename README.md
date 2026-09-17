@@ -10,7 +10,9 @@ Contributions welcome — see [Contributing](#contributing).
 
 - [Foundation Models & Reasoning](#foundation-models--reasoning)
 - [Multimodal & Generative Media](#multimodal--generative-media)
+- [Voice & Speech AI](#voice--speech-ai)
 - [Agent Frameworks & Memory](#agent-frameworks--memory)
+- [Browser & Computer-Use Agents](#browser--computer-use-agents)
 - [Coding Agents & Dev Tools](#coding-agents--dev-tools)
 - [RAG & Vector Search](#rag--vector-search)
 - [Inference & Serving](#inference--serving)
@@ -19,6 +21,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [Hardware Acceleration & Kernels](#hardware-acceleration--kernels)
 - [Robotics & Embodied AI](#robotics--embodied-ai)
 - [Synthetic Data & Curation](#synthetic-data--curation)
+- [MENA / Arabic-Language AI](#mena--arabic-language-ai)
 - [Vertical & Domain-Specific](#vertical--domain-specific)
 - [Datasets](#datasets)
 - [Safety & Alignment](#safety--alignment)
@@ -44,12 +47,8 @@ Contributions welcome — see [Contributing](#contributing).
 
 - [CogVideoX](https://github.com/THUDM/CogVideo) - Open-source 3D VAE video diffusion transformer for high-quality text-to-video generation on consumer and enterprise GPUs.
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Modular, node-based graphical interface and execution backend for stable diffusion, flux, and video generation workflows.
-- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - Multi-lingual speech generation model supporting zero-shot cross-lingual voice cloning and fine-grained emotional control.
-- [ElevenLabs](https://elevenlabs.io/) - Commercial text-to-speech and voice cloning platform widely used for natural voice synthesis and real-time audio agents.
-- [F5-TTS](https://github.com/SWivid/F5-TTS) - Non-autoregressive speech synthesis system based on flow matching with rapid zero-shot voice cloning.
 - [FLUX](https://github.com/black-forest-labs/flux) - Open-weight image generation models from Black Forest Labs, offering state-of-the-art prompt adherence and typography rendering.
 - [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) - Open-source 13B video foundation model from Tencent featuring a dual-stream visual-language architecture.
-- [Kokoro](https://github.com/hexgrad/kokoro) - Ultra-lightweight 82M open-weight text-to-speech model capable of fast, natural voice generation on CPU and edge devices.
 - [Midjourney](https://www.midjourney.com/) - Commercial text-to-image generation platform known for high aesthetic quality and artistic rendering.
 - [Runway](https://runwayml.com/) - Commercial generative video platform offering text-to-video, image-to-video, and cinematic camera controls.
 - [Sora](https://openai.com/sora/) - OpenAI's text-to-video model capable of generating minute-long scenes with camera motion and physical consistency.
@@ -57,13 +56,23 @@ Contributions welcome — see [Contributing](#contributing).
 - [Suno](https://suno.com/) - AI music generation platform that produces complete songs with vocal arrangements and instrumentation from text prompts.
 - [TRELLIS](https://github.com/microsoft/TRELLIS) - Open-source model producing structured 3D representations (Gaussian splats, Radiance Fields, meshes) from a single 2D image.
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) - Alibaba's open-weight video foundation model family supporting high-resolution text-to-video and image-to-video generation.
+
+## Voice & Speech AI
+
+- [AssemblyAI](https://www.assemblyai.com/) - Production API for speech-to-text, speaker diarization, streaming transcription, and speech understanding models.
+- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - Multi-lingual speech generation model supporting zero-shot cross-lingual voice cloning and fine-grained emotional control.
+- [Deepgram](https://deepgram.com/) - Real-time speech-to-text and text-to-speech API engineered for sub-second latency voice applications.
+- [ElevenLabs](https://elevenlabs.io/) - Commercial text-to-speech, voice cloning, and Conversational AI agent platform.
+- [F5-TTS](https://github.com/SWivid/F5-TTS) - Non-autoregressive speech synthesis system based on flow matching with rapid zero-shot voice cloning.
+- [Kokoro](https://github.com/hexgrad/kokoro) - Ultra-lightweight 82M open-weight text-to-speech model capable of fast, natural voice generation on CPU and edge devices.
+- [LiveKit Agents](https://github.com/livekit/agents) - Open-source framework for building real-time multimodal voice and video AI agents over WebRTC.
+- [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime) - Low-latency speech-to-speech multimodal API for real-time conversational agents.
 - [Whisper](https://github.com/openai/whisper) - OpenAI's open-weight automatic speech recognition (ASR) model with robust multilingual transcription and translation.
 
 ## Agent Frameworks & Memory
 
 - [Agno](https://github.com/agno-agi/agno) - High-performance multi-modal agent framework (formerly Phidata) with integrated memory, knowledge, and tool execution.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's multi-agent conversational framework enabling cooperative agents with configurable automation patterns.
-- [Browser Use](https://github.com/browser-use/browser-use) - Open-source library enabling AI agents to autonomously navigate, interact with, and extract data from websites via browser automation.
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Anthropic's SDK for building agents with tool calling, context management, and safety boundaries.
 - [Composio](https://github.com/ComposioHQ/composio) - Tool integration platform providing AI agents with managed authentication and execution for 250+ external APIs and applications.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing autonomous agents to collaborate on structured, multi-step workflows.
@@ -77,6 +86,16 @@ Contributions welcome — see [Contributing](#contributing).
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Open standard created by Anthropic for exposing tools, prompts, and resources to AI agents through standardized client-server interfaces.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Enterprise agent orchestration SDK from Microsoft with support for C#, Python, and Java.
 - [Smolagents](https://github.com/huggingface/smolagents) - Lightweight Hugging Face library where agents interact by writing executable Python code actions rather than JSON tool calls.
+
+## Browser & Computer-Use Agents
+
+- [Anthropic Computer Use](https://docs.anthropic.com/en/docs/build-with-claude/computer-use) - Frontier model capability enabling Claude to control the mouse, keyboard, and inspect screen state on desktop operating systems.
+- [Browser Use](https://github.com/browser-use/browser-use) - Open-source library enabling AI agents to autonomously navigate, interact with, and extract data from websites via browser automation.
+- [LaVague](https://github.com/lavague-ai/LaVague) - Open-source Large Action Model framework for automating web workflows using AI and browser drivers.
+- [OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt) - Open-source AI desktop process automation tool recording and replaying user interactions visually.
+- [Playwright](https://github.com/microsoft/playwright) - Reliable end-to-end browser automation framework commonly used as the execution runtime for browser agents.
+- [Stagehand](https://github.com/browserbase/stagehand) - AI web browsing framework built on Playwright with natural language extraction, action execution, and self-healing selectors.
+- [UI-TARS](https://github.com/bytedance/UI-TARS) - Open-source end-to-end GUI agent model by ByteDance capable of native keyboard and mouse interaction across mobile, desktop, and web.
 
 ## Coding Agents & Dev Tools
 
@@ -178,13 +197,22 @@ Contributions welcome — see [Contributing](#contributing).
 - [Magpie](https://github.com/magpie-align/magpie) - Self-synthesis framework generating high-quality instruction-tuning and alignment data directly from aligned models without prompt seeds.
 - [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback) - Multi-aspect preference dataset widely used to train open reward models and align models with DPO.
 
+## MENA / Arabic-Language AI
+
+- [AceGPT](https://github.com/FreedomIntelligence/AceGPT) - Open-source Arabic foundation and instruction-tuned language models by MBZUAI and CUHK.
+- [ALLaM](https://huggingface.co/sdaia) - Arabic foundation model developed by SDAIA (Saudi Data and Artificial Intelligence Authority) optimized for Arabic language understanding.
+- [CAMeL Tools](https://github.com/CAMeL-Lab/camel_tools) - Open-source Arabic NLP toolkit providing morphological modeling, dialect identification, and named-entity recognition from NYU Abu Dhabi.
+- [Dike](https://dike.it.com) - MENA legal source layer providing a bilingual API that grounds AI agents in primary legal sources across Saudi Arabia, UAE, Qatar, Kuwait, and Egypt.
+- [Falcon](https://falconllm.tii.ae/) - Open-weight foundation model series developed by the Technology Innovation Institute (TII) in Abu Dhabi.
+- [Fanar](https://fanar.qa/) - Arabic language foundation model initiative developed by Qatar Computing Research Institute (QCRI) aligned with Arab cultural heritage.
+- [Jais](https://huggingface.co/inceptionai/jais-13b-chat) - Open-weight Arabic-English bilingual pretrained model family developed by Inception (G42) and MBZUAI.
+
 ## Vertical & Domain-Specific
 
 - [AlphaFold](https://github.com/google-deepmind/alphafold) - Google DeepMind's Nobel Prize-winning foundation system for accurately predicting 3D structures of proteins, DNA, RNA, and ligands.
 - [BioGPT](https://github.com/microsoft/BioGPT) - Domain-specific generative transformer pretrained on biomedical literature for biomedical NLP tasks.
 - [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/) - 50-billion parameter language model trained on Bloomberg's proprietary financial data alongside general web text.
 - [ChemCrow](https://github.com/ur-whitelab/chemcrow-public) - Open chemistry agent integrating 18 expert computational chemistry tools for drug discovery and organic synthesis.
-- [Dike](https://dike.it.com) - MENA legal source layer providing a bilingual API that grounds AI agents in primary legal sources across Saudi Arabia, UAE, Qatar, Kuwait, and Egypt.
 - [Evo](https://github.com/evo-design/evo) - Biological foundation model trained on 300 billion nucleotides for generating DNA, RNA, and protein sequences at whole-genome scale.
 - [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Open-source financial LLM ecosystem covering financial sentiment analysis, automated trading strategies, and financial news analysis.
 - [LegalBench](https://github.com/HazyResearch/legalbench) - Open, collaboratively constructed benchmark comprising 162 tasks for evaluating legal reasoning in language models.
