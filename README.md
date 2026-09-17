@@ -61,11 +61,13 @@ Contributions welcome — see [Contributing](#contributing).
 
 ## Agent Frameworks & Memory
 
+- [Agno](https://github.com/agno-agi/agno) - High-performance multi-modal agent framework (formerly Phidata) with integrated memory, knowledge, and tool execution.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's multi-agent conversational framework enabling cooperative agents with configurable automation patterns.
 - [Browser Use](https://github.com/browser-use/browser-use) - Open-source library enabling AI agents to autonomously navigate, interact with, and extract data from websites via browser automation.
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Anthropic's SDK for building agents with tool calling, context management, and safety boundaries.
 - [Composio](https://github.com/ComposioHQ/composio) - Tool integration platform providing AI agents with managed authentication and execution for 250+ external APIs and applications.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing autonomous agents to collaborate on structured, multi-step workflows.
+- [DSPy](https://github.com/stanfordnlp/dspy) - Declarative programming framework that programmatically optimizes LLM prompts and weights rather than relying on manual prompting.
 - [E2B](https://github.com/e2b-dev/E2B) - Secure cloud sandboxes designed for AI agents to safely execute untrusted Python code and bash commands in isolated microVMs.
 - [LangChain](https://github.com/langchain-ai/langchain) - Ecosystem framework for chaining LLM calls, retrieval components, prompt templates, and tools.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Graph-based orchestration engine for building cyclic, stateful, multi-agent applications with human-in-the-loop controls.
@@ -112,8 +114,10 @@ Contributions welcome — see [Contributing](#contributing).
 
 - [ExLlamaV2](https://github.com/turboderp/exllamav2) - Fast inference library engineered specifically for modern quantized formats (EXL2 and GPTQ) on consumer GPUs.
 - [Instructor](https://github.com/jxnl/instructor) - Python library extending Pydantic to guarantee validated, structured outputs from commercial and open LLM APIs.
+- [LiteLLM](https://github.com/BerriAI/litellm) - Lightweight proxy and Python SDK to call 100+ LLMs using OpenAI standard format with unified cost tracking and load balancing.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Pure C/C++ inference engine for LLaMA and other open architectures, enabling efficient local execution across diverse hardware.
 - [LM Studio](https://lmstudio.ai/) - Desktop GUI and local server for finding, downloading, and running open-weight GGUF models on Apple Silicon and Windows/Linux GPUs.
+- [MLX LM](https://github.com/ml-explore/mlx-examples/tree/main/llms) - Apple's native machine learning framework for running and fine-tuning LLMs with unified memory on Apple Silicon.
 - [Ollama](https://github.com/ollama/ollama) - Local model management CLI and API that packages open-weight LLMs into simple bundles with an OpenAI-compatible endpoint.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Guided text generation library using finite-state machines to guarantee JSON schema compliance and regex adherence during token sampling.
 - [SGLang](https://github.com/sgl-project/sglang) - High-throughput LLM and VLM serving engine featuring RadixAttention for automatic KV cache reuse across complex multi-turn workflows.
@@ -159,12 +163,16 @@ Contributions welcome — see [Contributing](#contributing).
 - [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) - Generative, differentiable physics simulation platform engineered for robotics, embodied AI, and tactile sensing.
 - [Isaac Lab](https://github.com/isaac-sim/IsaacLab) - Unified and modular framework for robot learning in NVIDIA Isaac Sim, accelerating policy training and sim-to-real transfer.
 - [LeRobot](https://github.com/huggingface/lerobot) - Hugging Face's open-source library for real-world robotics, imitation learning, and affordable hardware teleoperation.
+- [MuJoCo](https://github.com/google-deepmind/mujoco) - Multi-Joint dynamics with Contact, DeepMind's open-source physics engine widely used for robot simulation and reinforcement learning.
+- [Octo](https://github.com/octo-models/octo) - Open-source generalist robot manipulation policy pretrained on 800k diverse robot interaction trajectories.
 - [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Cross-embodiment initiative providing open robotic manipulation datasets and foundation policies across 22 robot types.
+- [OpenVLA](https://github.com/openvla/openvla) - Open-source 7B vision-language-action model trained on 970k robot demonstrations for direct robotic control.
 
 ## Synthetic Data & Curation
 
 - [Argilla](https://github.com/argilla-io/argilla) - Open-source collaboration platform for data curation, human-in-the-loop feedback, and evaluation dataset validation.
 - [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) - Synthetic dataset of 25 billion tokens across synthetic textbooks, stories, and tutorials generated by Mixtral-8x7B.
+- [Data-Juicer](https://github.com/modelscope/data-juicer) - One-stop multimodal data processing system with 100+ filtering, deduplication, and transformation operators for LLM pretraining.
 - [distilabel](https://github.com/argilla-io/distilabel) - Framework for synthesizing datasets, generating multi-turn dialogues, and automated preference annotation using LLM-as-a-judge.
 - [FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) - 1.3-trillion-token web dataset filtered by an educational quality classifier to boost reasoning and knowledge capabilities.
 - [Magpie](https://github.com/magpie-align/magpie) - Self-synthesis framework generating high-quality instruction-tuning and alignment data directly from aligned models without prompt seeds.
@@ -177,29 +185,45 @@ Contributions welcome — see [Contributing](#contributing).
 - [BloombergGPT](https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/) - 50-billion parameter language model trained on Bloomberg's proprietary financial data alongside general web text.
 - [ChemCrow](https://github.com/ur-whitelab/chemcrow-public) - Open chemistry agent integrating 18 expert computational chemistry tools for drug discovery and organic synthesis.
 - [Dike](https://dike.it.com) - MENA legal source layer providing a bilingual API that grounds AI agents in primary legal sources across Saudi Arabia, UAE, Qatar, Kuwait, and Egypt.
+- [Evo](https://github.com/evo-design/evo) - Biological foundation model trained on 300 billion nucleotides for generating DNA, RNA, and protein sequences at whole-genome scale.
 - [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Open-source financial LLM ecosystem covering financial sentiment analysis, automated trading strategies, and financial news analysis.
+- [LegalBench](https://github.com/HazyResearch/legalbench) - Open, collaboratively constructed benchmark comprising 162 tasks for evaluating legal reasoning in language models.
 - [Med-PaLM](https://sites.research.google/med-palm/) - Google's medical-domain model family benchmarked against clinical licensing exams and consumer medical questions.
+- [OpenBioLLM](https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B) - Open-source biomedical foundation model series fine-tuned for medical summarization and clinical question answering.
 - [OpenFold](https://github.com/aqlaboratory/openfold) - Trainable, open-source reproduction of AlphaFold2 enabling molecular biologists to train custom biomolecular structure models.
+- [ProGen](https://github.com/salesforce/progen) - Language model for protein design generating functional artificial enzymes with customizable biological properties.
 
 ## Datasets
 
+- [C4](https://huggingface.co/datasets/allenai/c4) - Colossal Clean Crawled Corpus, a petabyte-scale cleaned snapshot of Common Crawl data used to pretrain T5 and modern language models.
 - [Common Crawl](https://commoncrawl.org/) - Petabyte-scale open repository of web crawl data, serving as the raw foundation for most web-scale LLM training.
 - [Dolma](https://github.com/allenai/dolma) - Allen AI's open 3-trillion-token pretraining dataset with full data curation recipes and transparent data provenance.
 - [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) - 15-trillion-token deduplicated and filtered web corpus from Hugging Face designed for pretraining frontier-grade models.
+- [GSM8K](https://github.com/openai/grade-school-math) - Benchmark dataset of 8,500 diverse grade-school math word problems requiring multi-step reasoning.
 - [Hugging Face Datasets](https://huggingface.co/datasets) - Community hub hosting hundreds of thousands of machine learning datasets across all modalities with streaming access.
 - [LAION-5B](https://laion.ai/blog/laion-5b/) - Open dataset containing 5.85 billion image-text pairs, widely used for training open multimodal vision and diffusion models.
+- [LMSYS Chatbot Arena Conversations](https://huggingface.co/datasets/lmsys/lmsys-chat-1m) - Dataset of 1 million real-world human-LLM conversations across diverse models for alignment and preference modeling.
+- [MATH](https://github.com/hendrycks/math) - Challenging dataset of 12,500 high-school competition mathematics problems with full step-by-step LaTeX solutions.
+- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) - Extended multi-task language understanding benchmark with increased reasoning difficulty, expanded options, and reasoning noise reduction.
+- [NuminaMath](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT) - Large-scale mathematical reasoning dataset of 860k problems with chain-of-thought solutions, winner of the AIMO progress prize.
+- [Open-Thoughts](https://huggingface.co/datasets/open-thoughts/Open-Thoughts-114k) - High-quality reasoning dataset with detailed step-by-step chain-of-thought trajectories curated for distillation.
 - [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) - Instruction-tuning collection of millions of GPT-augmented completions mapped over FLAN-style prompts.
 - [RedPajama](https://github.com/togethercomputer/RedPajama-Data) - Open reproduction of the LLaMA pretraining dataset with transparent token filtering and licensing specifications.
+- [ShareGPT](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered) - Community-collected conversational dataset of multi-turn user conversations with ChatGPT, foundational for early instruction tuning.
 - [The Pile](https://pile.eleuther.ai/) - 825 GiB diverse English text dataset constructed by EleutherAI for training large language models.
+- [UltraChat](https://huggingface.co/datasets/stingning/ultrachat) - Multi-turn conversational dataset containing 1.4 million dialogues across diverse topics, used to train Zephyr and open chat models.
 
 ## Safety & Alignment
 
 - [Alignment Forum](https://www.alignmentforum.org/) - Research community and discussion hub focused on technical AI alignment and AI safety research.
 - [Anthropic's Responsible Scaling Policy](https://www.anthropic.com/rsp) - Public policy framework detailing concrete safety levels and mitigations required as model capabilities increase.
 - [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) - Foundational methodology for training harmless and helpful AI systems using AI feedback against written constitutions.
+- [CyberSecEval](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) - Meta's comprehensive evaluation suite for quantifying cybersecurity risks, code security vulnerabilities, and cyberattack assistance in LLMs.
+- [DecodingTrust](https://github.com/AI-secure/DecodingTrust) - Comprehensive trustworthiness evaluation platform assessing toxicity, bias, robustness, and privacy in language models.
 - [Garak](https://github.com/leondz/garak) - Open-source LLM vulnerability scanner that tests models for prompt injection, jailbreaks, data leakage, and hallucination vulnerabilities.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Framework for specifying, validating, and enforcing output schemas and safety policies on LLM responses.
 - [HarmBench](https://github.com/centerforaisafety/HarmBench) - Standardized evaluation framework and dataset for automated red-teaming and assessing adversarial robustness in LLMs.
+- [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Standardized benchmark and leaderboard tracking adversarial jailbreak vulnerabilities and defenses in frontier models.
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama) - Meta's open safeguard model family for classifying input prompts and generated responses against safety taxonomies.
 - [METR](https://metr.org/) - Nonprofit research organization evaluating frontier models for catastrophic risks and autonomous capabilities prior to deployment.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Open-source toolkit from NVIDIA for adding programmable topical, safety, and security guardrails to conversational systems.
@@ -211,8 +235,14 @@ Contributions welcome — see [Contributing](#contributing).
 ## Learning Resources
 
 - [Andrej Karpathy's Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) - Video lecture series building micrograd, makemore, and GPT architectures from scratch in Python and PyTorch.
+- [DeepLearning.AI](https://www.deeplearning.ai/) - Education platform founded by Andrew Ng offering courses on LLM architecture, agentic design patterns, and generative AI.
+- [Designing Machine Learning Systems](https://github.com/chiphuyen/dmls-book) - Practical guide by Chip Huyen on building reliable, scalable, and maintainable production machine learning systems.
+- [Eugene Yan's Applied LLM Guides](https://eugeneyan.com/writing/llm-patterns/) - Detailed, battle-tested practical patterns and system architecture guides for building production LLM applications.
 - [fast.ai](https://www.fast.ai/) - Practical, code-first deep learning courses teaching practical model training and computer vision / NLP workflows.
 - [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) - Free interactive course covering modern transformer architectures, datasets, and tokenizers.
+- [Jay Alammar's The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) - Visual guide deconstructing the mathematical mechanics of attention mechanisms and transformer models.
+- [Lil'Log](https://lilianweng.github.io/) - Comprehensive technical blog by Lilian Weng featuring rigorous mathematical deep dives into LLMs, diffusion, agents, and alignment.
+- [LLM Visualization](https://bbycroft.net/llm) - Interactive 3D web visualization showing token-by-token tensor transformations and matrix multiplications inside a Transformer model.
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Comprehensive open-source guide and paper repository covering modern prompting techniques, reasoning strategies, and evaluation.
 - [Stanford CS229: Machine Learning](https://cs229.stanford.edu/) - Stanford's foundational machine learning course materials covering statistical learning theory, supervised learning, and neural networks.
 - [The LLM Course](https://github.com/mlabonne/llm-course) - Step-by-step open curriculum and roadmap covering modern LLM architecture, fine-tuning, quantization, and deployment.
