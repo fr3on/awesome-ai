@@ -9,7 +9,9 @@ Contributions welcome — see [Contributing](#contributing).
 ## Contents
 
 - [Foundation Models](#foundation-models)
+- [Multimodal & Generative Media](#multimodal--generative-media)
 - [Agent Frameworks](#agent-frameworks)
+- [Coding Agents & Dev Tools](#coding-agents--dev-tools)
 - [RAG & Vector Search](#rag--vector-search)
 - [Inference & Serving](#inference--serving)
 - [Evaluation & Observability](#evaluation--observability)
@@ -30,6 +32,15 @@ Contributions welcome — see [Contributing](#contributing).
 - [DeepSeek](https://github.com/deepseek-ai/DeepSeek-V3) - Open-weight models with strong reasoning-to-cost ratio.
 - [Gemma](https://ai.google.dev/gemma) - Google's open-weight model family, permissively licensed.
 
+## Multimodal & Generative Media
+
+- [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - Open-weight text-to-image model family, the base for most self-hosted image generation.
+- [FLUX](https://github.com/black-forest-labs/flux) - Open-weight image generation models from Black Forest Labs, known for prompt adherence and detail.
+- [Sora](https://openai.com/sora/) - OpenAI's text-to-video model, generates minute-long video clips from text prompts.
+- [Suno](https://suno.com/) - Text-to-song generation, produces full tracks with vocals and instrumentation from a prompt.
+- [ElevenLabs](https://elevenlabs.io/) - Text-to-speech and voice cloning platform, widely used for narration and dubbing.
+- [Whisper](https://github.com/openai/whisper) - OpenAI's open-weight speech-to-text model, supports transcription and translation across many languages.
+
 ## Agent Frameworks
 
 - [LangChain](https://github.com/langchain-ai/langchain) - The most widely adopted framework for chaining LLM calls, tools, and memory.
@@ -39,6 +50,16 @@ Contributions welcome — see [Contributing](#contributing).
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration framework.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Graph-based orchestration for stateful, multi-step agent workflows.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Open standard for connecting AI agents to external tools and data sources.
+
+## Coding Agents & Dev Tools
+
+- [Claude Code](https://claude.com/claude-code) - Anthropic's agentic CLI/IDE tool that reads, edits, and runs code directly in your terminal or editor.
+- [Cursor](https://cursor.com/) - AI-first code editor built as a fork of VS Code, with deep in-editor agentic edit and chat.
+- [GitHub Copilot](https://github.com/features/copilot) - The original AI pair programmer, now with agent mode across VS Code, JetBrains, and github.com.
+- [Aider](https://github.com/Aider-AI/aider) - Open-source terminal-based AI pair programmer that edits local git repos directly.
+- [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent as a VS Code extension, model-agnostic.
+- [Windsurf](https://windsurf.com/) - AI-native IDE with a multi-file agentic "Cascade" mode.
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source platform for autonomous software-engineering agents that can browse, run code, and call APIs.
 
 ## RAG & Vector Search
 
