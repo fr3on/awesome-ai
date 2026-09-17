@@ -35,8 +35,10 @@ Contributions welcome — see [Contributing](#contributing).
 - [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) - Open reasoning model trained with large-scale reinforcement learning, demonstrating competitive reasoning on math, code, and logic.
 - [Gemini](https://deepmind.google/technologies/gemini/) - Google DeepMind's native multimodal model family, offering multi-million token context windows and audio-visual streaming.
 - [Gemma](https://ai.google.dev/gemma) - Google's lightweight open-weight model family built on Gemini technology under a permissive license.
+- [GLM-5.3](https://github.com/zai-org/GLM-5) - Z.ai's first natively multimodal GLM-5 release, open-weight SOTA on agentic and coding benchmarks.
 - [GPT](https://openai.com/gpt-4) - OpenAI's flagship conversational and general-purpose model family.
 - [Grok](https://x.ai/) - Frontier multimodal models from xAI with native real-time web retrieval.
+- [Kimi K3](https://github.com/MoonshotAI/Kimi-K3) - Moonshot AI's 2.8T-parameter open-weight natively multimodal and agentic model with a 1M-token context window.
 - [Llama](https://www.llama.com/) - Meta's open-weight model family, the primary base for community fine-tuning and local deployment.
 - [Mistral](https://mistral.ai/) - Open and commercial models from Mistral AI, recognized for high efficiency and dense/MoE architectures.
 - [OpenAI Reasoning (o1 / o3-mini)](https://openai.com/index/openai-o1-system-card/) - Models that leverage test-time compute to think through complex math, coding, and scientific reasoning tasks before answering.
@@ -48,7 +50,9 @@ Contributions welcome — see [Contributing](#contributing).
 - [CogVideoX](https://github.com/THUDM/CogVideo) - Open-source 3D VAE video diffusion transformer for high-quality text-to-video generation on consumer and enterprise GPUs.
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Modular, node-based graphical interface and execution backend for stable diffusion, flux, and video generation workflows.
 - [FLUX](https://github.com/black-forest-labs/flux) - Open-weight image generation models from Black Forest Labs, offering state-of-the-art prompt adherence and typography rendering.
+- [Higgs Audio v3](https://github.com/boson-ai/higgs-audio) - Qwen3-backboned text-audio foundation model generating expressive conversational speech across 100+ languages with inline emotion and prosody control.
 - [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) - Open-source 13B video foundation model from Tencent featuring a dual-stream visual-language architecture.
+- [Kling](https://klingai.com/) - Kuaishou's commercial video generation platform, native 4K/60fps clips with multilingual lip-sync.
 - [Midjourney](https://www.midjourney.com/) - Commercial text-to-image generation platform known for high aesthetic quality and artistic rendering.
 - [Runway](https://runwayml.com/) - Commercial generative video platform offering text-to-video, image-to-video, and cinematic camera controls.
 - [Sora](https://openai.com/sora/) - OpenAI's text-to-video model capable of generating minute-long scenes with camera motion and physical consistency.
@@ -60,6 +64,7 @@ Contributions welcome — see [Contributing](#contributing).
 ## Voice & Speech AI
 
 - [AssemblyAI](https://www.assemblyai.com/) - Production API for speech-to-text, speaker diarization, streaming transcription, and speech understanding models.
+- [Chatterbox](https://github.com/resemble-ai/chatterbox) - MIT-licensed open TTS with zero-shot voice cloning from 5 seconds of audio and built-in neural watermarking.
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - Multi-lingual speech generation model supporting zero-shot cross-lingual voice cloning and fine-grained emotional control.
 - [Deepgram](https://deepgram.com/) - Real-time speech-to-text and text-to-speech API engineered for sub-second latency voice applications.
 - [ElevenLabs](https://elevenlabs.io/) - Commercial text-to-speech, voice cloning, and Conversational AI agent platform.
@@ -74,6 +79,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [Agno](https://github.com/agno-agi/agno) - High-performance multi-modal agent framework (formerly Phidata) with integrated memory, knowledge, and tool execution.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's multi-agent conversational framework enabling cooperative agents with configurable automation patterns.
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Anthropic's SDK for building agents with tool calling, context management, and safety boundaries.
+- [Cognee](https://github.com/topoteretes/cognee) - Graph-native agent memory platform combining vector search with knowledge graphs across 14 retrieval modes.
 - [Composio](https://github.com/ComposioHQ/composio) - Tool integration platform providing AI agents with managed authentication and execution for 250+ external APIs and applications.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing autonomous agents to collaborate on structured, multi-step workflows.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Declarative programming framework that programmatically optimizes LLM prompts and weights rather than relying on manual prompting.
@@ -83,6 +89,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [Letta](https://github.com/letta-ai/letta) - Stateful agent service (formerly MemGPT) featuring hierarchical memory architectures and self-editing memory blocks across conversations.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework connecting LLMs to external enterprise data sources, document parsers, and custom knowledge indices.
 - [Mem0](https://github.com/mem0ai/mem0) - Personalized memory layer for AI agents that continuously learns user preferences and context across sessions.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Unified, supported SDK merging AutoGen and Semantic Kernel into a single agent-building framework.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Open standard created by Anthropic for exposing tools, prompts, and resources to AI agents through standardized client-server interfaces.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Enterprise agent orchestration SDK from Microsoft with support for C#, Python, and Java.
 - [Smolagents](https://github.com/huggingface/smolagents) - Lightweight Hugging Face library where agents interact by writing executable Python code actions rather than JSON tool calls.
@@ -94,6 +101,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [LaVague](https://github.com/lavague-ai/LaVague) - Open-source Large Action Model framework for automating web workflows using AI and browser drivers.
 - [OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt) - Open-source AI desktop process automation tool recording and replaying user interactions visually.
 - [Playwright](https://github.com/microsoft/playwright) - Reliable end-to-end browser automation framework commonly used as the execution runtime for browser agents.
+- [Skyvern](https://github.com/Skyvern-AI/skyvern) - Vision-LLM-driven browser automation specialized for form-fills, logins, and other "write" workflows, built on Playwright.
 - [Stagehand](https://github.com/browserbase/stagehand) - AI web browsing framework built on Playwright with natural language extraction, action execution, and self-healing selectors.
 - [UI-TARS](https://github.com/bytedance/UI-TARS) - Open-source end-to-end GUI agent model by ByteDance capable of native keyboard and mouse interaction across mobile, desktop, and web.
 
@@ -107,6 +115,8 @@ Contributions welcome — see [Contributing](#contributing).
 - [Cursor](https://cursor.com/) - AI-first IDE built on a fork of VS Code featuring full-codebase indexing, multi-file agentic editing, and terminal integration.
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer providing inline completions and multi-file workspace agent mode across major editors.
 - [Goose](https://github.com/block/goose) - Open-source autonomous developer agent by Block that runs in your terminal to automate repetitive software engineering tasks.
+- [Jules](https://jules.google/) - Google's async coding agent that clones repos into a secure cloud VM and works in the background.
+- [OpenCode](https://opencode.ai/) - Open-source terminal-native coding agent with a client/server architecture supporting multiple model providers and TUI/desktop/IDE frontends.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open platform for autonomous software development agents capable of browsing documentation, debugging errors, and solving issues in Docker sandboxes.
 - [Plandex](https://github.com/plandex-ai/plandex) - Open-source terminal coding engine built for complex multi-stage tasks with sandbox execution and git-aware diff reviews.
 - [Roo Code](https://github.com/RooVetGit/Roo-Code) - Autonomous coding extension for VS Code with custom agent personas, multi-directory workspaces, and MCP support.
@@ -136,6 +146,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [LiteLLM](https://github.com/BerriAI/litellm) - Lightweight proxy and Python SDK to call 100+ LLMs using OpenAI standard format with unified cost tracking and load balancing.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Pure C/C++ inference engine for LLaMA and other open architectures, enabling efficient local execution across diverse hardware.
 - [LM Studio](https://lmstudio.ai/) - Desktop GUI and local server for finding, downloading, and running open-weight GGUF models on Apple Silicon and Windows/Linux GPUs.
+- [LMDeploy](https://github.com/InternLM/lmdeploy) - Weight-only and KV quantization serving engine with persistent batching across NVIDIA, AMD, Ascend, and Apple hardware.
 - [MLX LM](https://github.com/ml-explore/mlx-examples/tree/main/llms) - Apple's native machine learning framework for running and fine-tuning LLMs with unified memory on Apple Silicon.
 - [Ollama](https://github.com/ollama/ollama) - Local model management CLI and API that packages open-weight LLMs into simple bundles with an OpenAI-compatible endpoint.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Guided text generation library using finite-state machines to guarantee JSON schema compliance and regex adherence during token sampling.
@@ -152,6 +163,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Evaluation framework created by the UK AI Safety Institute for systematic, reproducible evaluation of frontier model capabilities.
 - [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform providing detailed tracing, prompt versioning, user feedback tracking, and evaluation.
 - [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) - The standard unified benchmarking framework for evaluating open LLMs across hundreds of academic and standardized tasks.
+- [Opik](https://github.com/comet-ml/opik) - Comet's open-source LLM tracing, evaluation, and prompt-engineering platform.
 - [OpenRouter](https://openrouter.ai/) - Unified API gateway aggregating 200+ models with automated fallback routing, competitive pricing, and load balancing.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI and CI/CD testing tool for evaluating prompt quality, red-teaming security risks, and benchmarking LLM outputs.
 - [Ragas](https://github.com/explodinggradients/ragas) - Evaluation framework specifically designed for measuring retrieval and generation quality in RAG pipelines.
@@ -186,6 +198,7 @@ Contributions welcome — see [Contributing](#contributing).
 - [Octo](https://github.com/octo-models/octo) - Open-source generalist robot manipulation policy pretrained on 800k diverse robot interaction trajectories.
 - [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Cross-embodiment initiative providing open robotic manipulation datasets and foundation policies across 22 robot types.
 - [OpenVLA](https://github.com/openvla/openvla) - Open-source 7B vision-language-action model trained on 970k robot demonstrations for direct robotic control.
+- [pi-zero (Physical Intelligence)](https://github.com/Physical-Intelligence/openpi) - Open-sourced robot foundation model (VLA) reaching specialist-level dexterous manipulation across embodiments without fine-tuning.
 
 ## Synthetic Data & Curation
 
@@ -203,9 +216,10 @@ Contributions welcome — see [Contributing](#contributing).
 - [ALLaM](https://huggingface.co/sdaia) - Arabic foundation model developed by SDAIA (Saudi Data and Artificial Intelligence Authority) optimized for Arabic language understanding.
 - [CAMeL Tools](https://github.com/CAMeL-Lab/camel_tools) - Open-source Arabic NLP toolkit providing morphological modeling, dialect identification, and named-entity recognition from NYU Abu Dhabi.
 - [Dike](https://dike.it.com) - MENA legal source layer providing a bilingual API that grounds AI agents in primary legal sources across Saudi Arabia, UAE, Qatar, Kuwait, and Egypt.
-- [Falcon](https://falconllm.tii.ae/) - Open-weight foundation model series developed by the Technology Innovation Institute (TII) in Abu Dhabi.
+- [Falcon](https://falconllm.tii.ae/) - Open-weight foundation model series developed by the Technology Innovation Institute (TII) in Abu Dhabi, including the hybrid Mamba-Transformer Falcon-H1 Arabic models.
 - [Fanar](https://fanar.qa/) - Arabic language foundation model initiative developed by Qatar Computing Research Institute (QCRI) aligned with Arab cultural heritage.
 - [Jais](https://huggingface.co/inceptionai/jais-13b-chat) - Open-weight Arabic-English bilingual pretrained model family developed by Inception (G42) and MBZUAI.
+- [Misraj AI](https://github.com/misraj-ai) - Arabic-native model family covering language-injection SLMs (Kuwain), bidirectional AR-EN translation (Mutarjim), and 15-dialect translation (Lahjawi).
 
 ## Vertical & Domain-Specific
 
